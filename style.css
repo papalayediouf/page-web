@@ -1,0 +1,186 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 176, 176);
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    align-items: center;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+}
+.a{
+    color: rgb(103, 103, 103);
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 7px;
+}
+.a1{
+    color: black;
+}
+select{
+    background-color: black;
+    border: none;
+    color: orangered;
+}
+.oranged{
+    height: 65px;
+    width: 120px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    left: 71.5px;
+}
+ul{
+    display: flex;
+
+}
+.nav{
+    display: flex;
+     background-color: white;
+     padding: 0;
+     align-items: center;
+     justify-content: space-around;
+     height: 40px;
+
+}
+.li{
+    border-left: 1px solid rgb(225, 222, 222);
+    border-right: 1px solid rgb(214, 213, 213);
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.UL{
+   height: 25px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+main{
+    background-image: url(image/no.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.p{
+    
+    padding: 0;
+    padding: 35px;
+}
+span{
+    font-size: 60px;
+}
+button{
+    background-color: rgba(2,2,3,0.1);
+    border: 1px solid white;
+    color: white;
+}
+.puma{
+    width:70px;
+}
+.orange{
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    border-radius: 50px;
+    margin: auto;
+}
+
+
+
+
+footer{
+    text-align: center;
+    
+}
+.img{
+    position: absolute; 
+    left: 25%;
+    top: 500px;
+  
+}
+.imgs{
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+      
+        font-size: 5px;
+        align-items: center;
+        display: flex;
+    }
+    select{
+        list-style-type: none;
+        text-decoration: none;
+       
+        list-style: none;
+        height: 3.5px;
+    }
+   
+    
+    
+     .img{
+        width: 300px;
+       
+        left: 50px; 
+    }
+    .imgs{
+        width: 300px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    .oranged{
+        height: 60px;
+        width: 35px;
+        top: 10px;
+        left: 2px;
+    }
+    .a{
+        font-size: 4px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+ 
+}
